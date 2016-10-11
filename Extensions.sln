@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21644623-986C-46BC-8F22-13CCB9478219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B2C0A95-CF92-4977-9E39-BE60849D85B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Extensions.Strings", "src\Lsquared.Extensions.Strings\Lsquared.Extensions.Strings.csproj", "{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Extensions.Strings.Tests", "tests\Lsquared.Extensions.Strings.Tests\Lsquared.Extensions.Strings.Tests.csproj", "{28756505-AAF3-4C01-B670-E44292B5C8B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28756505-AAF3-4C01-B670-E44292B5C8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28756505-AAF3-4C01-B670-E44292B5C8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28756505-AAF3-4C01-B670-E44292B5C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28756505-AAF3-4C01-B670-E44292B5C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10} = {21644623-986C-46BC-8F22-13CCB9478219}
+		{28756505-AAF3-4C01-B670-E44292B5C8B6} = {9B2C0A95-CF92-4977-9E39-BE60849D85B2}
+	EndGlobalSection
+EndGlobal
