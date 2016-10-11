@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Text;
+using static Lsquared.Internal.ObjectHelpers;
 
 namespace Lsquared
 {

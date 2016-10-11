@@ -53,6 +53,12 @@
     <Compile Include="StringTemplateTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Lsquared.Extensions.Strings\Lsquared.Extensions.Strings.csproj">
+      <Project>{98A4F81D-8FC0-48CD-A93E-D1B73B218F10}</Project>
+      <Name>Lsquared.Extensions.Strings</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

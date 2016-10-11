@@ -1,7 +1,8 @@
 ﻿using System;
+using Lsquared;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Lsquared.Extensions.StringTemplate.Tests
+namespace Lsquared.Extensions.Strings.Tests
 {
     [TestClass]
     public class StringTemplateTests
@@ -11,7 +12,7 @@ namespace Lsquared.Extensions.StringTemplate.Tests
         {
             var expected ="Hello John Doe";
 
-            var st = new StringTemplate("Hello {name}");
+            var st = StringTemplate.Create("Hello {name}");
             var actual = st.Format("John Doe");
 
             Assert.AreEqual(expected, actual);
@@ -22,7 +23,7 @@ namespace Lsquared.Extensions.StringTemplate.Tests
         {
             var expected ="Hello {0}";
 
-            var st = new StringTemplate("Hello {{0}}");
+            var st =  StringTemplate.Create("Hello {{0}}");
             var actual = st.Format("John Doe");
 
             Assert.AreEqual(expected, actual);

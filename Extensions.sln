@@ -11,7 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Extensions.Strings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Extensions.Strings.Tests", "tests\Lsquared.Extensions.Strings.Tests\Lsquared.Extensions.Strings.Tests.csproj", "{28756505-AAF3-4C01-B670-E44292B5C8B6}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lsquared.Extensions.ObjectHelpers", "src\Lsquared.Extensions.ObjectHelpers\Lsquared.Extensions.ObjectHelpers.shproj", "{918E60C5-423E-445B-A133-972EA336D847}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Lsquared.Extensions.ObjectHelpers\ObjectHelpers.projitems*{918e60c5-423e-445b-a133-972ea336d847}*SharedItemsImports = 13
+		src\Lsquared.Extensions.ObjectHelpers\ObjectHelpers.projitems*{98a4f81d-8fc0-48cd-a93e-d1b73b218f10}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{98A4F81D-8FC0-48CD-A93E-D1B73B218F10} = {21644623-986C-46BC-8F22-13CCB9478219}
 		{28756505-AAF3-4C01-B670-E44292B5C8B6} = {9B2C0A95-CF92-4977-9E39-BE60849D85B2}
+		{918E60C5-423E-445B-A133-972EA336D847} = {21644623-986C-46BC-8F22-13CCB9478219}
 	EndGlobalSection
 EndGlobal
